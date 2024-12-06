@@ -3,11 +3,11 @@ import AuthContext from "./AuthContext";
 export const AuthProvider = ({ children }) => {
   const [auth, setAuth] = useState(null);
   const [user, setUser] = useState({
-    id: null,
-    fullname: null,
-    username: null,
-    profileImage: null,
-    tagline: null,
+    id: "",
+    fullname: "",
+    username: "",
+    email: "",
+    password: "",
   });
   return (
     <AuthContext.Provider value={{ auth, user, setUser, setAuth }}>
