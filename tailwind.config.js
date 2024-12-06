@@ -12,10 +12,10 @@ export default {
         "49%": "49%",
         "48%": "48%",
       },
-      fontFamily: {
-        inter: ['"Inter"', "sans-serif"],
-        poppins: ['"Poppins"', "sans-serif"],
-      },
+      // fontFamily: {
+      //   inter: ['"Inter"', "sans-serif"],
+      //   poppins: ['"Poppins"', "sans-serif"],
+      // },
       colors: {
         "nav-button-color": "#00732F",
         "nav-opt-text-color": "#6D6E71",
@@ -33,8 +33,8 @@ export default {
         h4: "40px",
         h5: "35px",
         h6: "30px",
-        btn1:"25px",
-        btn2:"20px",
+        btn1: "25px",
+        btn2: "20px",
         p1: "18px",
         p2: "16px",
         p3: "14px",
